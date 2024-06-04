@@ -1,0 +1,5 @@
+//CONSULTA 1
+INSERT INTO alumno_horizontal1 SELECT * FROM alumno WHERE codigo BETWEEN 1 AND 6553;
+ 
+//CONSULTA 2
+INSERT INTO alumno_horizontal2 SELECT * FROM alumno WHERE codigo BETWEEN 6554 AND 13106;
